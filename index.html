@@ -402,7 +402,9 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="btn-close" data-modal-close>
-          <img src="./images/close.png" alt="Закрыть" width="18" />
+          <svg class="close-button">
+            <use href="./images/symbol-defs.svg#icon-close"></use>
+          </svg>
         </button>
         <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
 
@@ -425,7 +427,7 @@
           <label class="modal-box">
             <span class="form-text">Почта</span>
             <svg class="form-icon3">
-              <use href="./images/symbol-defs.svg#icon-email"></use>
+              <use href="./images/symbol-defs.svg#icon-mail"></use>
             </svg>
             <input type="email" name="email" class="form-input" />
           </label>
